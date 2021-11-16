@@ -1,0 +1,172 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #53ee99;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+.button_1{
+    height: 38px;
+    background: #e8419d;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+header{
+    background-color: #35424a;
+    color:#c0bcce;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8419d 3px solid;
+
+}
+header a{
+    color: rgb(167, 219, 23);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0px;
+
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+header.highlight,hrader .current a{
+    color: rgb(181, 240, 21);
+    font-weight: bold;
+    
+}
+header a:hover{
+color:#e92929;
+font-weight: bold;
+
+
+}
+#showcase{
+    min-height: 400px;
+    background: url('../cricket.jpg');
+    text-align: center;
+    color: darkkhaki;
+}
+#showcase h1{
+    margin-top: -13px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase h3{
+    font-size: 20px;
+    color: #faf600;
+    font-weight: bold;
+}
+#newslatter{
+padding: 15px;
+color:#ffffff ;
+background: 35424a;
+
+
+}
+#newslatter h1{
+    float: left;
+    text-align: center;
+    padding-left: 25px;
+    color: #e92929;
+
+
+}
+#newslatter form{
+    float: right;
+    margin-top: 15px;
+
+}
+#newslatter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+}
+span{
+    color: #e92929;
+    font-size: 50px;
+}
+.container h1{
+    color: #0afa82;
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+
+}
+#boxes .box img{
+    width: 90px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8419d;
+    text-align: center;
+}
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newslatter h1,
+    #newslatter form,
+    #boxes .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #shawcase h1{
+     margin-top: 40px;
+    }
+    #newslatter button{
+        display: block;
+        width: 100%;
+
+    }
+    #newslatter form input[type="email"]{
+        width:100% ;
+        margin-bottom: 5px;
+    }
+}
